@@ -1,0 +1,141 @@
+/*Colors and fonts */
+
+html {
+	padding-top: 0em;
+	background: url(images/slider1-bg.jpg);
+	background-size: cover;
+}
+
+body {
+	font-family: Montserrat, sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	padding: 20px;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+	font-family: Nothing you could do, cursive;
+	margin: 10px 0px;
+	color: #36827F;
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 20px;
+	color: #36827F;
+	font-family: Poppins, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #171614;
+}
+
+a:hover {
+	color: #2A4494;
+}
+
+#Cynthia {
+	border-radius: 50%;
+	padding: 4px;
+	text-align: center;
+	width: 320px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    width: 100px;
+  }
+}
+
+.container{
+	width: 700px;
+	margin:40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius:4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #36827F;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: #2A4494;
+	color: white;
+	margin-top: 40px;
+}
+
+.btn-blue a {
+	margin: 100px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #2A4494;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #171614;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+.jpg-food {
+	width: 200px;
+	display: inline;
+}
+
+.jpg-travel {
+	width: 300px;
+	display: inline;
+}
+
+.jpg-travel li {
+	display: inline;
+	list-style: none;
+}
+
+.jpg-photo {
+	width: 300px;
+	display: inline;
+}
